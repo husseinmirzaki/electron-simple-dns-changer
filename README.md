@@ -27,10 +27,9 @@ npm run dev
 ```.desktop
 [Desktop Entry]
 Version=1.0
-Name=DNS ChChanger
+Name=Simple DNS ChChanger
 Type=Application
-Exec=sh -c "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY ~/dev/electron-vite-vue/release/28.1.0/YourAppName-Linux-28.1.0.AppImage --no-sandbox --disable-gpu-sandbox"
+Exec=sh -c "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY ~/dev/electron-vite-vue/release/28.1.0/Simple DNS Changer-Linux-28.1.0.AppImage --no-sandbox --disable-gpu-sandbox"
 Terminal=false
 StartupNotify=true
-
 ```
